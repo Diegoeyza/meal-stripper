@@ -1,0 +1,28 @@
+Meal Stripper — REFramework mod for Monster Hunter Wilds
+=======================================================
+
+Install
+-------
+1. Install REFramework for MH Wilds (dinput8.dll in the game folder).
+2. Copy buff_stripper.lua to:
+     <game>\reframework\autorun\buff_stripper.lua
+   Steam path:
+     ...\steamapps\common\MonsterHunterWilds\reframework\autorun\
+3. Open the in-game REFramework menu -> "Script Generated UI" ->
+   "Meal Stripper" to confirm it loaded.
+
+Use
+---
+1. Eat a meal.
+2. REFramework menu -> Script Generated UI -> Meal Stripper
+   -> "Strip meal now".
+3. Eat another meal; it applies normally.
+   "Restore last" undoes the strip (the 7 tracked fields only).
+
+Notes
+-----
+- One-shot strip sticks (verified in the hub, the training grounds, and full
+  real quests); the game does not rewrite the stripped fields.
+- Reload via REFramework menu -> "Script" -> "Reset scripts".
+- No hooks, no per-frame work, no config; nothing runs until a button is
+  pressed.
